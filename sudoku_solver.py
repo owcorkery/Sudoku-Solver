@@ -90,5 +90,5 @@ def print_board(b):
 
 print_board(board)
 solve(board)
-print(" ______________________________________ ")
+print("______________________________________ \n")
 print_board(board)
