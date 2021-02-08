@@ -41,7 +41,7 @@ def is_allowed(b, val, row, col):
             return False
         
     for j in range(len(b[0])):
-        if(b[row][j] == val and col != i):
+        if(b[row][j] == val and col != j):
             return False
 
     new_row = row // 3
